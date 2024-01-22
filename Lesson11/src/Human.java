@@ -6,10 +6,19 @@ public class Human {
     public Human(){
 
     }
+    public Human(String humanName, int humanAge){
+        name = humanName;
+        age = humanAge;
+    }
     public Human(String humanName, String humanGender, int humanAge){
     name = humanName;
     gender = humanGender;
     age = humanAge;
 }
+
+    public void walk(){
+        System.out.println(name+ " прошёл 10 шагов");
     }
+
+}
 
