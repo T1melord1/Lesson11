@@ -1,5 +1,6 @@
 public class Human {
-    public static void test(){
-        System.out.println("hello");
+    String name;
+    String gender;
+    int age;
     }
-}
+
