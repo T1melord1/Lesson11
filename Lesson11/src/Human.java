@@ -7,13 +7,13 @@ public class Human {
 
     }
     public Human(String humanName, int humanAge){
-        name = humanName;
-        age = humanAge;
+        this.name = name;
+        this.age = age;
     }
     public Human(String humanName, String humanGender, int humanAge){
-    name = humanName;
-    gender = humanGender;
-    age = humanAge;
+    this.name = name;
+    this.gender = gender;
+    this.age = age;
 }
 
     public void walk(){
