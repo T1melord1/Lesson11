@@ -6,11 +6,11 @@ public class Human {
     public Human(){
 
     }
-    public Human(String humanName, int humanAge){
+    public Human(String name, int age){
         this.name = name;
         this.age = age;
     }
-    public Human(String humanName, String humanGender, int humanAge){
+    public Human(String name, String gender, int age){
     this.name = name;
     this.gender = gender;
     this.age = age;
