@@ -10,6 +10,7 @@ public class Main {
         System.out.println("Имя " + petya.name + " возраст " + petya.age + " пол " + petya.gender);
 
         Duck krya = new Duck("Кря", 3, "Серая");
+
         Duck gylya = new Duck("Гуля", 5, "Серебристая");
 
         krya.fly();
