@@ -16,8 +16,8 @@ public class Human {
     this.age = age;
 }
 
-    public void walk(){
-        System.out.println(name+ " прошёл 10 шагов");
+    public void walk(int stepsCount){
+        System.out.println(name+ " прошёл " + stepsCount+ " шагов");
     }
 
 }
