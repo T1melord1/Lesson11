@@ -1,3 +1,3 @@
 public class Robot {
-    static int moscow1;
+    static int moscow11;
 }
